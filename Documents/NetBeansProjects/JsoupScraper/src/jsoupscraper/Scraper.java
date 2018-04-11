@@ -28,7 +28,6 @@ public class Scraper {
         String delims = "[*]";
         String[] splittedData;
         String date = null; 
-        //YahooOptions yo;
         BigDecimal change  ; 
         BigDecimal changePerCente  ; 
         for (String a:dataFromYahooFinance ){
@@ -66,7 +65,7 @@ public class Scraper {
          
            
         }
-        //System.out.println(type);
+        
         
      return optionsList ;   
     }
